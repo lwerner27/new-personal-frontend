@@ -1,10 +1,13 @@
 import React from "react";
-import Title from "../components/Title";
+import Header from "../components/Header";
+import Button from "../components/Button";
 
 const Home = () => {
     return (
         <div className='page-home'>
-            <Title name='lucas werner' />
+            <Header name='lucas werner'>
+                <Button>Learn More</Button>
+            </Header>
         </div>
     );
 };
