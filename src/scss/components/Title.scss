@@ -1,0 +1,14 @@
+.title-container {
+    height: 100vh;
+    background-color: $color-shade-dark;
+}
+
+.title {
+    margin: 0;
+    @include centerContent;
+    font-family: Roboto;
+    font-weight: 200;
+    font-size: 125px;
+    color: $color-shade-light;
+    text-transform: uppercase;
+}
